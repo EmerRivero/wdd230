@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <title>Welcome to Bountiful Foods</title>
+        <meta name="description" content="Make Drink with a Mix of multiple fruits"/>
+        <link rel="shortcut icon" href="images/favicon.ico"/>
+        <link rel="preconnect" href="https://fonts.googleapis.com"/>
+        <link
+            rel="preconnect"
+            href="https://fonts.gstatic.com"
+            crossorigin="crossorigin"/>
+        <link
+            href="https://fonts.google.com/share?selection.family=Work%20Sans:ital,wght@0,500;0,900;1,100"
+            rel="stylesheet"/>
+        <link rel="stylesheet" href="css/normalize.css"/>
+        <link rel="stylesheet" href="css/base.css"/>
+        <link rel="stylesheet" href="css/medium.css"/>
+        <link rel="stylesheet" href="css/large.css"/>
+    </head>
+    <body>
+        <header class="menu">
+            <div class="banner">
+                <picture class="logo">
+                    <img src="images/logo.png" alt="Bountiful foods logo" width="99" height="77"/>
+                </picture>
+                <h1>
+                    Bountiful foods<span class="displayblock"></span>
+                </h1>
+            </div>
+            <nav class="sticky">
+                <ul class="navigation">
+                    <li class="hide">
+                        <a class="tworemfont hide" href="#" onclick="toggleMenu()">&#9776;</a >
+                    </li>
+                    <li class="hide">
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li class="hide bluebackground">
+                        <a href="#">Fresh</a>
+                    </li>
+                    <li class="hide">
+                        <a href="about.html">About Us</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <main id="fresh-main">
+            <div id="fresh-main-div">
+                <form method="get" onsubmit="order()">
+                    <fieldset>
+                        <h2>Mix your Drink</h2>
+                        <label class="top">
+                            <label>
+                                First Fruit Choice
+                                <select id="first-fruit"></select>
+                            </label>
+                            <label>
+                                Second Fruit Choice
+                                <select id="second-fruit"></select>
+                            </label>
+                            <label>
+                                Third Fruit Choice
+                                <select id="third-fruit"></select>
+                            </label>
+                        </fieldset>
+
+                        <fieldset>
+                            <h2>Contact Information</h2>
+                            <label class="top">Full Name:
+                                <input
+                                    type="text"
+                                    name="fname"
+                                    placeholder="Emer Rivero"
+                                    required="required"
+                                    id="input-name"/></label>
+                            <label class="top">Email ingre:
+                                <input
+                                    type="email"
+                                    name="email"
+                                    placeholder="bountiful@foods.com"
+                                    required="required"
+                                    id="input-email"/></label>
+                            <label class="top">Phone Number:
+                                <input
+                                    type="tel"
+                                    name="phone"
+                                    placeholder="246-595-2939"
+                                    required="required"
+                                    id="input-phone"/></label>
+                        </fieldset>
+
+                        <!--<fieldset>-->
+                        <h1>Confirm and Apply</h1>
+                        <div id="order-button"><input type="submit" value="Order Now"></div>
+                        <div id="order">
+                            <h2>Your Last Order:</h2>
+                        </div>
+                        <!--</fieldset>-->
+                    </form>
+                </main>
+
+                <footer>
+                    <div class="attributions">
+                      <p class="twocolumns" id="currentyear"></p>
+                      <p>
+                        Recipe information provided by the
+                        <a href="https://www.inspiredtaste.net/"
+                          >https://www.inspiredtaste.net/</a
+                        >.
+                      </p>
+                      <p class="twocolumns">
+                        Weather services provided by
+                        <a href="https://openweathermap.org/">OpenWeatherMap</a>.
+                      </p>
+                      <p class="twocolumns" id="lastmodified"></p>
+                    </div>
+              
+                    <div class="ingre">
+                      <p>
+                        Bountiful Foods
+                        <span class="displayblock">4222 Bountiful foods Ln #300</span>
+                        <span class="displayblock">One Legoland Dr, Carlsbad, CA 92008, United States</span>
+                      </p>
+                      <a
+                        href="https://www.google.com.mx/maps/place/LEGOLAND+California/@33.1325649,-117.3039095,14.08z/data=!4m13!1m7!3m6!1s0x80dc73453f3bee59:0xa4cb5592fcf65d2f!2sCarlsbad,+CA,+USA!3b1!8m2!3d33.1580933!4d-117.3505939!3m4!1s0x80dc73d69e231bf3:0x1ebc75741330f7d8!8m2!3d33.1262496!4d-117.3119239"
+                        ><img
+                          src="images/googlemaps.png"
+                          alt="Google Maps link"
+                          width="48"
+                          height="48"
+                        />
+                      </a>
+                    </div>
+                    <div class="social">
+                      <p><a href="/about.html">How can we help?</a></p>
+                      <p>Call us toll-free: 240-595-2939</p>
+                      <a href="https://facebook.com"
+                        ><img
+                          src="images/facebook.png"
+                          alt="Facebook link"
+                          width="48"
+                          height="48"
+                      /></a>
+                      <a href="https://linkedin.com"
+                        ><img
+                          src="images/linkedin.png"
+                          alt="Linkedin link"
+                          width="48"
+                          height="48"
+                      /></a>
+                      <a href="https://twitter.com"
+                        ><img
+                          src="images/twitter.png"
+                          alt="Twitter link"
+                          width="48"
+                          height="48"
+                      /></a>
+                    </div>
+                  </footer>
+
+                <script src="js/script.js"></script>
+                <script src="js/fresh.js"></script>
+            </body>
+        </html>

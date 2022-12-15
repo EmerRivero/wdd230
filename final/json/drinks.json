@@ -1,0 +1,40 @@
+{
+    "recipe": [
+        {
+            "name": "Banana Smoothie",
+            "ingre": "Bananas,Greek Yogurt,Milk,Vanilla.",
+            "season": "Unlike other fruit like apples which have a growing season, bananas are available all year round.",
+            "image": "images/drinks/banana.webp",
+            "latitude": "33.158",
+            "longitude": "-117.351",
+            "bene": "Instant Power Supply. Athletes eat bananas in the middle of a workout to provide a large amount of energy for the body,Improve Digestion,Control Cholesterol,Prevent Stroke,Prevent Stomach Ulcers,Improve Brain Capacity,Boosts Immunity and Nervous System,Enhance Bone Health."
+        },
+        {
+            "name": "Kiwi Smoothie",
+            "ingre": "Kiwi,Banana,Frozen pineapple,Water,Spinach.",
+            "season": "The US kiwi season lasts from October through May.",
+            "image": "images/drinks/kiwi.webp",
+            "latitude": "33.158",
+            "longitude": "-117.351",
+            "bene": "actinidain, kiwi helps in digestion of proteins and breaking fat molecules, which eventually help in easing bowel movement."
+        },
+        {
+            "name": "Apple Smoothie",
+            "ingre": "Apple,Oatmeal,Maple Syrup,Almond Milk,SPICES. Cinnamon is essential,Vanilla.",
+            "season": "fall and early winter.",
+            "image": "images/drinks/apple.webp",
+            "latitude": "33.158",
+            "longitude": "-117.351",
+            "bene": "Supports You in Losing Weight, Prevents Heart-Related Diseases, Promotes Lower Risk of Diabetes & Cancer, Great for your Brain and Gut Health."
+        },
+        {
+            "name": "Lemon Juice",
+            "ingre": "Lemons,Water,Sugar (optional)",
+            "season": "Lemons can be found during all four seasons in California, in autumn they can be seen in Alabama and Mississippi markets. You can find lemons between January and September in Arizona and Florida.",
+            "image": "images/drinks/lemon.jpg",
+            "latitude": "33.158",
+            "longitude": "-117.351",
+            "bene": "Relieves a sore throat, May prevent and help fight cancer, Prevents kidney stones, Aids in digestion, Helps regulate blood sugar, Promotes weight loss, Helps clear skin."
+        }
+    ]
+} 
